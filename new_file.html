@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			div div{
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="a">
+			nihao
+			<div class="b">
+				nihap
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+			$(".a").mouseenter(function(){
+		
+		$(this).children().eq(0).css("display","block");
+		
+		return true;
+	})
+	$(".a").mouseleave(function(){
+		
+		$(this).children().eq(0).css("display","none");
+		
+		return true;
+		
+	})
+	</script>
+</html>
