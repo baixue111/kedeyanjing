@@ -1,0 +1,436 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 16px;
+  font-weight: normal; }
+
+ul, ol, li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.top, .mark, .logo, .con, .bottom, .banner, #rmss, #miaosha, .yilou, .yilou1, #silou, #wulou, #wlmd, #pingjia, #site, #content, #shangpin, #shangpin1 {
+  width: 1190px;
+  margin: 0 auto; }
+
+input {
+  border: 0; }
+
+#top {
+  height: 26px;
+  background: #f2f2f2;
+  border: 1px solid #e5e5e5;
+  border-top: 0; }
+
+.top {
+  height: 26px;
+  font-size: 12px;
+  color: #666;
+  line-height: 26px; }
+  .top .top-left {
+    width: 100px;
+    height: 26px;
+    float: left;
+    background: url("../images/tubiao.png") no-repeat 2px 5px; }
+    .top .top-left a {
+      margin-left: 22px;
+      color: #666; }
+  .top .top-middle {
+    width: 438px;
+    height: 26px;
+    float: left; }
+    .top .top-middle p {
+      color: #999;
+      float: left;
+      width: 161px;
+      height: 26px; }
+    .top .top-middle a {
+      float: left;
+      padding-right: 5px;
+      color: #666; }
+  .top .top-right {
+    float: left;
+    width: 650px;
+    height: 26px; }
+    .top .top-right .top-right1 {
+      margin-right: 18px;
+      float: left; }
+    .top .top-right .top-right2 {
+      display: block;
+      width: 63px;
+      height: 26px;
+      background: url(../images/tubiao.png) no-repeat 56px -16px;
+      float: left;
+      margin-right: 15px;
+      position: relative; }
+      .top .top-right .top-right2 .top-right2-a {
+        color: #666; }
+      .top .top-right .top-right2 ul {
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        width: 63px;
+        position: absolute;
+        z-index: 2;
+        background: white; }
+        .top .top-right .top-right2 ul li {
+          text-align: center; }
+          .top .top-right .top-right2 ul li a {
+            color: #666; }
+    .top .top-right .top-right3 {
+      display: block;
+      width: 63px;
+      height: 26px;
+      background: url(../images/tubiao.png) no-repeat 56px -16px;
+      float: left;
+      margin-right: 10px;
+      position: relative; }
+      .top .top-right .top-right3 .top-right3-a {
+        color: #666; }
+      .top .top-right .top-right3 ul {
+        border: 1px solid #e5e5e5;
+        border-top: 0;
+        width: 63px;
+        position: absolute;
+        z-index: 2;
+        background: white; }
+        .top .top-right .top-right3 ul li {
+          text-align: center; }
+          .top .top-right .top-right3 ul li a {
+            color: #666; }
+    .top .top-right .top-right4 {
+      border-right: 1px solid #e7e5e7;
+      display: block;
+      float: left;
+      height: 13px;
+      margin: 8px 10px; }
+    .top .top-right .top-right5 {
+      background: url(../images/tubiao.png) no-repeat 0px -42px;
+      display: block;
+      float: left;
+      width: 83px;
+      border-right: 1px solid #e9e9e9; }
+      .top .top-right .top-right5 a {
+        color: #666;
+        margin-left: 20px; }
+        .top .top-right .top-right5 a span {
+          color: #ff6600; }
+    .top .top-right .top-right6 {
+      width: 50px;
+      background: url(../images/tubiao.png) no-repeat 0 -67px;
+      display: block;
+      float: left;
+      padding-left: 20px; }
+    .top .top-right .top-right7 {
+      width: 246px;
+      display: block;
+      float: left; }
+      .top .top-right .top-right7 span {
+        background: url(../images/tubiao.png) no-repeat -100px 5px;
+        display: block;
+        float: left;
+        width: 16px;
+        height: 26px;
+        margin-right: 5px; }
+      .top .top-right .top-right7 a {
+        color: #fe6809; }
+
+#logo1 {
+  height: 143px; }
+  #logo1 .logo1 {
+    width: 1190px;
+    padding-top: 52px;
+    padding-left: 200px; }
+    #logo1 .logo1 h1 {
+      width: 250px;
+      height: 70px;
+      float: left; }
+    #logo1 .logo1 h2 {
+      line-height: 81px;
+      color: #666;
+      font-size: 18px;
+      font-weight: 100;
+      float: left; }
+    #logo1 .logo1 .logo2 {
+      float: left;
+      margin-left: 150px; }
+      #logo1 .logo1 .logo2 .logo2a {
+        width: 490px;
+        height: 28px;
+        background: url(../../dist/images/progress_bar.png) no-repeat; }
+      #logo1 .logo1 .logo2 .logo2b {
+        font-size: 12px;
+        color: #999;
+        width: 160px;
+        height: 20px;
+        line-height: 20px;
+        float: left;
+        text-align: center; }
+
+#kuang {
+  width: 996px;
+  min-height: 180px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 10px;
+  border: 1px solid #ccc;
+  margin: 0 auto; }
+  #kuang .kuang1 {
+    width: 370px;
+    margin: 50px 0 0 295px; }
+    #kuang .kuang1 i {
+      width: 43px;
+      height: 38px;
+      display: block;
+      background: url(../../dist/images/tubiao.png) no-repeat -337px -357px;
+      float: left;
+      margin-right: 20px; }
+    #kuang .kuang1 p {
+      font-size: 14px;
+      color: #333;
+      float: left; }
+    #kuang .kuang1 a {
+      font-size: 12px;
+      color: #90C221; }
+  #kuang .kuang2 {
+    min-height: 30px; }
+    #kuang .kuang2 .kuang2a {
+      width: 996px;
+      height: 30px;
+      border: 1px solid #ccc;
+      background: #f9f9f9; }
+      #kuang .kuang2 .kuang2a nav {
+        line-height: 30px;
+        text-align: center;
+        width: 440px;
+        font-size: 14px;
+        color: #333;
+        float: left; }
+      #kuang .kuang2 .kuang2a h4 {
+        font-size: 14px;
+        color: #333;
+        float: left;
+        width: 110px;
+        text-align: center;
+        line-height: 30px;
+        height: 30px; }
+    #kuang .kuang2 .kuang2b {
+      padding: 30px 0 12px 18px;
+      font-size: 15px;
+      color: #333; }
+    #kuang .kuang2 .kuang22 {
+      border: 1px solid #ccc; }
+      #kuang .kuang2 .kuang22 .kuang2c {
+        width: 100%;
+        height: 60px;
+        padding: 10px 0;
+        border-bottom: 1px dotted #ccc; }
+        #kuang .kuang2 .kuang22 .kuang2c li {
+          float: left; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c1 {
+          margin-left: 10px; }
+          #kuang .kuang2 .kuang22 .kuang2c .kuang2c1 img {
+            width: 60px;
+            height: 60px; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c2 {
+          width: 380px;
+          white-space: nowrap;
+          overflow: hidden;
+          font-size: 12px;
+          color: #666;
+          line-height: 60px;
+          margin-left: 10px; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c3 {
+          width: 120px;
+          font-size: 12px;
+          color: #666;
+          line-height: 60px; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c4 {
+          width: 120px;
+          padding: 9px 0; }
+          #kuang .kuang2 .kuang22 .kuang2c .kuang2c4 .btn1 {
+            width: 22px;
+            height: 22px;
+            border: 1px solid #666;
+            text-align: center;
+            line-height: 22px;
+            font-size: 12px;
+            color: #333;
+            float: left;
+            margin-top: 9px;
+            background: #eee;
+            cursor: pointer; }
+          #kuang .kuang2 .kuang22 .kuang2c .kuang2c4 .text1 {
+            width: 30px;
+            height: 22px;
+            margin: 9px 5px 0;
+            color: #333;
+            font-size: 14px;
+            line-height: 22px;
+            float: left;
+            text-align: center;
+            font-weight: 200; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c5 {
+          width: 100px;
+          font-size: 12px;
+          color: #666;
+          line-height: 60px; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c6 {
+          width: 120px;
+          font-size: 12px;
+          color: #f60;
+          line-height: 60px; }
+        #kuang .kuang2 .kuang22 .kuang2c .kuang2c7 {
+          margin-top: 10px; }
+          #kuang .kuang2 .kuang22 .kuang2c .kuang2c7 p {
+            font-size: 12px;
+            color: #666;
+            cursor: pointer; }
+
+#jia {
+  width: 990px;
+  color: #666;
+  margin: 40px auto 0;
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px; }
+  #jia .jia1 {
+    height: 24px; }
+    #jia .jia1 h3 {
+      float: right; }
+  #jia .jia2 {
+    height: 24px; }
+    #jia .jia2 h3 {
+      float: right; }
+    #jia .jia2 h4 {
+      float: right;
+      color: #f60; }
+  #jia .jia3 {
+    height: 24px;
+    margin-bottom: 10px; }
+    #jia .jia3 h3 {
+      float: right; }
+    #jia .jia3 h4 {
+      float: right;
+      color: #f60; }
+  #jia .jia4 {
+    height: 34px;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #ccc; }
+    #jia .jia4 p {
+      float: right; }
+      #jia .jia4 p span {
+        font-size: 24px;
+        line-height: 34px;
+        color: #f60; }
+    #jia .jia4 input {
+      float: right;
+      width: 190px;
+      height: 34px;
+      color: #fff;
+      background: #f60;
+      border-radius: 3px;
+      line-height: 34px;
+      text-align: center;
+      font-size: 16px;
+      margin-left: 15px; }
+
+#xihuan {
+  width: 990px;
+  height: 290px;
+  margin: 30px auto 50px; }
+  #xihuan .xihuan1 {
+    width: 100%;
+    height: 28px; }
+    #xihuan .xihuan1 h3 {
+      border: 1px solid #ccc;
+      border-bottom: 0;
+      float: left;
+      font-size: 12px;
+      color: #333;
+      text-align: center;
+      width: 98px;
+      height: 28px;
+      line-height: 28px;
+      cursor: pointer; }
+    #xihuan .xihuan1 h3:first-child {
+      color: #f60; }
+  #xihuan .xihuan2 {
+    border: 1px solid #ccc;
+    height: 260px;
+    position: relative; }
+    #xihuan .xihuan2 i {
+      width: 20px;
+      height: 40px;
+      display: block;
+      position: absolute;
+      top: 120px;
+      left: 0;
+      background: url(../../dist/images/tubiao.png) no-repeat -517px 0; }
+    #xihuan .xihuan2 b {
+      width: 20px;
+      height: 40px;
+      display: block;
+      position: absolute;
+      top: 120px;
+      right: 0;
+      background: url(../../dist/images/tubiao.png) no-repeat -538px 0; }
+
+#bottom {
+  height: 170px;
+  background: #F0F0F0; }
+  #bottom .bottom {
+    height: 130px;
+    position: relative;
+    padding-top: 20px; }
+    #bottom .bottom img {
+      margin: 0 auto; }
+    #bottom .bottom .bottom2 {
+      text-align: center;
+      padding: 14px 0; }
+      #bottom .bottom .bottom2 p {
+        text-align: center;
+        font-size: 12px;
+        color: #999; }
+      #bottom .bottom .bottom2 h3 {
+        text-align: center;
+        font-size: 12px;
+        color: #999; }
+        #bottom .bottom .bottom2 h3 i {
+          background: url("../../dist/images/ba.jpg");
+          display: inline-block;
+          width: 20px;
+          height: 20px; }
+      #bottom .bottom .bottom2 div {
+        margin: 2px 0 15px 0; }
+        #bottom .bottom .bottom2 div a {
+          font-size: 12px;
+          color: #999;
+          padding: 0 5px 0 3px;
+          border-right: 2px solid #999; }
+      #bottom .bottom .bottom2 img {
+        margin: 14px auto; }

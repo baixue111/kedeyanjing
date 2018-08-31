@@ -10,7 +10,10 @@ input{outline:none;}
 .clear-fix:after{content:".";clear:both;display: block;height:0;overflow: hidden;visibility: hidden;}
 
 
-.top,.mark,.logo,.con,.bottom,.banner,#rmss,#miaosha,.yilou,.yilou1,#silou,#wulou,#wlmd,#pingjia{width:1190px;margin:0 auto}
+.top,.mark,.logo,.con,.bottom,.banner,#rmss,#miaosha,.yilou,.yilou1,#silou,#wulou,#wlmd,#pingjia,#site,#content,#shangpin,#shangpin1{width:1190px;margin:0 auto}
+input{border:0}
+
+
 
 @mixin WH($width,$height){
     width:$width;

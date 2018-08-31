@@ -3,6 +3,8 @@ var rename=require("gulp-rename");
 var sass=require("gulp-sass");
 var cssnano=require("gulp-cssnano");
 var uglify=require("gulp-uglify");
+var babel=require("gulp-babel");
+var webserver=require("gulp-webserver");
 
 gulp.task("sass",function(){
 	gulp.src("./src/scss/*.scss").pipe(sass()).pipe(rename({suffix:".min"}))
@@ -12,8 +14,12 @@ gulp.task("sass",function(){
 
 //
 gulp.task("script",function(){
-	gulp.src("./src/js/*.js").pipe(rename({suffix:".min"})).pipe(uglify()).pipe(gulp.dest("dist/js"));
+	gulp.src("./src/js/*.js").pipe(babel({
+      presets: ['@babel/env']
+    })).pipe(rename({suffix:".min"})).pipe(uglify()).pipe(gulp.dest("dist/js"));
 })
+
+
 
 
 gulp.task("default",function(){

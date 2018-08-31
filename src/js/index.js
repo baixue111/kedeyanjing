@@ -1,4 +1,5 @@
 $(function(){
+	var $elecolor="";
 	hoveryellow('#top .top .top-left a');
 	hoveryellow('.top .top-middle a');
 	hoveryellow('.top .top-right .top-right1,.top-right6');
@@ -355,6 +356,15 @@ $(function(){
 		$("#right").children("a").eq(3).css("background","url(dist/images/tubiao.png) no-repeat -309px -658px")
 	})
 	
+	$("#right").children("a").eq(3).click(function(){
+		$(location).attr("href","gouwuche.html");
+	})
+	
+	
+	
+	
+	
+	
 	$("#right").children("a").eq(4).mouseover(function(){
 		$("#right").children("a").eq(4).css("background","url(dist/images/tubiao.png) no-repeat -364px -719px")
 	})
@@ -447,6 +457,32 @@ $(function(){
 
 
 
+
+	function yidong(ele){
+		$(ele).mouseover(function(){
+			$(this).animate({left:"-5px"});
+		})
+		$(ele).mouseout(function(){
+			$(this).animate({left:"+5px"});
+		})
+	}
+	
+	
+	
+	
+	function hoveryellow(ele){
+		$(ele).mouseover(function(){
+			$elecolor=$(ele).css("color");
+			$(this).css("color","#fd7b25");
+			async:false;
+		})
+		$(ele).mouseout(function(){
+			$(this).css("color",$elecolor);
+		})
+	}
+
+
+
 })
 
 
@@ -462,26 +498,6 @@ $(function(){
 
 
 
-function yidong(ele){
-	$(ele).mouseover(function(){
-		$(this).animate({left:"-5px"});
-	})
-	$(ele).mouseout(function(){
-		$(this).animate({left:"+5px"});
-	})
-}
 
 
-
-
-function hoveryellow(ele){
-	$(ele).mouseover(function(){
-		$elecolor=$(ele).css("color");
-		$(this).css("color","#fd7b25");
-		async:false;
-	})
-	$(ele).mouseout(function(){
-		$(this).css("color",$elecolor);
-	})
-}
 

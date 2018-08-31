@@ -33,12 +33,16 @@ input {
   overflow: hidden;
   visibility: hidden; }
 
-.top, .mark, .logo, .con, .bottom, .banner, #rmss, #miaosha, .yilou, .yilou1, #silou, #wulou, #wlmd, #pingjia {
+.top, .mark, .logo, .con, .bottom, .banner, #rmss, #miaosha, .yilou, .yilou1, #silou, #wulou, #wlmd, #pingjia, #site, #content, #shangpin, #shangpin1 {
   width: 1190px;
   margin: 0 auto; }
 
+input {
+  border: 0; }
+
 html, body {
-  height: 100%; }
+  height: 100%;
+  background: #F0F0F0; }
 
 #top {
   height: 26px;
@@ -160,42 +164,211 @@ html, body {
 
 #logo1 {
   height: 143px; }
+  #logo1 .logo1 {
+    width: 1190px;
+    padding-top: 52px;
+    padding-left: 200px; }
+    #logo1 .logo1 h1 {
+      width: 250px;
+      height: 70px;
+      float: left; }
+    #logo1 .logo1 h2 {
+      line-height: 81px;
+      color: #666;
+      font-size: 18px;
+      font-weight: 100;
+      float: left; }
 
 #middle {
-  height: 480px; }
+  height: 480px;
+  background: #fdc2be; }
+  #middle .middle {
+    width: 998px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative; }
+    #middle .middle form {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      background: #fff;
+      width: 340px;
+      height: 400px;
+      z-index: 50px; }
+      #middle .middle form div {
+        margin: 30px 30px 0 30px;
+        height: 40px;
+        line-height: 40px; }
+        #middle .middle form div p {
+          color: #f60;
+          font-size: 22px;
+          float: left;
+          font-weight: bold; }
+        #middle .middle form div h4 {
+          line-height: 40px;
+          font-size: 12px;
+          float: right; }
+          #middle .middle form div h4 a {
+            font-size: 12px;
+            color: #f60;
+            display: inline;
+            padding-right: 5px; }
+          #middle .middle form div h4 i {
+            background: url(../../dist/images/tubiao.png) no-repeat -412px -940px;
+            float: right;
+            width: 16px;
+            height: 16px;
+            margin-top: 12px; }
+      #middle .middle form ul {
+        width: 280px;
+        margin: 15px auto;
+        font-size: 12px; }
+        #middle .middle form ul li {
+          position: relative;
+          height: 38px;
+          margin-top: 10px;
+          border: 1px solid #bdbdbd; }
+        #middle .middle form ul .li1 i {
+          display: inline-block;
+          float: left;
+          width: 24px;
+          height: 24px;
+          position: absolute;
+          left: 8px;
+          top: 6px;
+          background: url(../../dist/images/tubiao.png) no-repeat -502px -911px; }
+        #middle .middle form ul .li1 b {
+          position: absolute;
+          left: 38px;
+          top: 11px;
+          width: 1px;
+          height: 17px;
+          background-color: #bdbdbd; }
+        #middle .middle form ul .li1 input {
+          width: 235px;
+          height: 38px;
+          line-height: 38px;
+          float: left;
+          text-indent: 5px;
+          border: 0px;
+          outline: none;
+          font-size: 14px;
+          padding-left: 43px;
+          background-color: #fff; }
+        #middle .middle form ul .li2 {
+          width: 270px;
+          padding-left: 10px; }
+          #middle .middle form ul .li2 input {
+            height: 38px;
+            line-height: 38px;
+            float: left;
+            text-indent: 5px;
+            font-size: 14px;
+            width: 156px; }
+          #middle .middle form ul .li2 img {
+            float: left;
+            margin: 3px; }
+        #middle .middle form ul .li3 i {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          display: block;
+          position: absolute;
+          left: 8px;
+          top: 6px;
+          background: url(../../dist/images/tubiao.png) no-repeat -526px -911px; }
+        #middle .middle form ul .li3 b {
+          position: absolute;
+          left: 38px;
+          top: 11px;
+          width: 1px;
+          height: 17px;
+          background-color: #bdbdbd; }
+        #middle .middle form ul .li3 input:nth-of-type(1) {
+          width: 124px;
+          height: 38px;
+          line-height: 38px;
+          float: left;
+          text-indent: 5px;
+          font-size: 14px;
+          padding-left: 43px;
+          background-color: #fff; }
+        #middle .middle form ul .li3 input:nth-of-type(2) {
+          width: 104px;
+          height: 32px;
+          line-height: 32px;
+          color: #fff;
+          cursor: pointer;
+          background-color: #999;
+          margin: 3px;
+          text-align: center;
+          display: inline-block; }
+        #middle .middle form ul .li4 i {
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          display: block;
+          float: left;
+          position: absolute;
+          left: 8px;
+          top: 6px;
+          background: url(../../dist/images/tubiao.png) no-repeat -550px -911px; }
+        #middle .middle form ul .li4 b {
+          position: absolute;
+          left: 38px;
+          top: 11px;
+          width: 1px;
+          height: 17px;
+          background-color: #bdbdbd; }
+        #middle .middle form ul .li4 input {
+          width: 235px;
+          position: relative;
+          height: 38px;
+          line-height: 38px;
+          float: left;
+          font-size: 14px;
+          margin-left: 43px;
+          background-color: #fff; }
+        #middle .middle form ul .li5 {
+          border: 0; }
+          #middle .middle form ul .li5 input {
+            border: 0;
+            margin-bottom: 7px;
+            color: #fff;
+            font-size: 16px;
+            width: 280px;
+            height: 36px;
+            border-radius: 3px;
+            font-weight: bold;
+            background: #f80;
+            text-align: center;
+            line-height: 36px;
+            cursor: pointer; }
+        #middle .middle form ul .li6 {
+          border: 0; }
+          #middle .middle form ul .li6 i {
+            margin-right: 4px;
+            width: 12px;
+            height: 12px;
+            display: inline-block;
+            background: url(../../dist/images/allbgs.png) no-repeat 0px -432px;
+            float: left; }
+          #middle .middle form ul .li6 p a {
+            color: #6d9d03; }
+        #middle .middle form ul .li7 {
+          height: 12px;
+          width: 280px;
+          border: 0;
+          font-size: 12px;
+          color: #f60; }
 
 #bottom {
-  height: 400px;
-  background: #F0F0F0; }
+  height: 150px; }
   #bottom .bottom {
-    height: 390px;
+    height: 130px;
     position: relative;
-    padding-top: 10px; }
-    #bottom .bottom img {
-      margin: 0 auto; }
-    #bottom .bottom .bottom1 {
-      padding: 20px 0px 0 70px;
-      border-top: 1px #fff solid;
-      margin: 0 auto;
-      width: 970px;
-      height: 110px;
-      border-bottom: 1px solid #E0E0E0; }
-      #bottom .bottom .bottom1 .bottom1-1 {
-        float: left;
-        width: 150px;
-        color: #666; }
-        #bottom .bottom .bottom1 .bottom1-1 p {
-          font-size: 14px;
-          margin-bottom: 10px;
-          font-weight: bold;
-          text-align: center; }
-        #bottom .bottom .bottom1 .bottom1-1 a {
-          font-size: 12px;
-          display: block;
-          color: #999;
-          text-align: center; }
+    padding-top: 20px; }
     #bottom .bottom .bottom2 {
-      border-top: 1px #fff solid;
       text-align: center;
       padding: 14px 0; }
       #bottom .bottom .bottom2 p {
@@ -219,4 +392,4 @@ html, body {
           padding: 0 5px 0 3px;
           border-right: 2px solid #999; }
       #bottom .bottom .bottom2 img {
-        margin-top: 14px; }
+        margin: 14px auto; }

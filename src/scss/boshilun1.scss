@@ -1,0 +1,928 @@
+@import "public";
+#top{
+    height:26px;
+    background:#f2f2f2;
+    border:1px solid #e5e5e5;
+    border-top:0
+    }
+.top{
+    height:26px;
+    font-size:12px;
+    color:#666;
+    line-height: 26px;
+    .top-left {
+        @include WH(100px,26px)
+        //width: 100px;
+        //height: 26px;
+        float: left;
+        background: url(../../dist/images/tubiao.png) no-repeat 2px 5px;
+        a {
+            margin-left: 22px;
+            color: #666;
+        }
+    }
+    
+    .top-middle {
+        @include WH(438px,26px);
+        //width: 438px;
+        //height: 26px;
+        float: left;
+        p {
+            color: #999;
+            float: left;
+            width: 161px;
+            height: 26px;
+        }
+        a {
+            float: left;
+            padding-right: 5px;
+            color: #666;
+        }
+    }
+    
+    .top-right {
+        float: left;
+        width: 650px;
+        height: 26px;
+        .top-right1 {
+            margin-right: 18px;
+            float: left;
+        }
+        .top-right2 {
+            display: block;
+            width: 63px;
+            height: 26px;
+            background: url(../../dist/images/tubiao.png) no-repeat 56px -16px;
+            float: left;
+            margin-right: 15px;
+            position:relative;
+            .top-right2-a{
+                color:#666;
+            }
+            ul{
+                border:1px solid #e5e5e5;
+                border-top:0;
+                width:63px;
+                position:absolute;
+                z-index: 2;
+                background: white;
+                li{
+                    text-align: center;
+                    a{
+                        color:#666;
+                    }
+                }
+            }
+        }
+        .top-right3 {
+            display: block;
+            width: 63px;
+            height: 26px;
+            background: url(../../dist/images/tubiao.png) no-repeat 56px -16px;
+            float: left;
+            margin-right: 10px;
+            position:relative;
+            .top-right3-a{
+                color:#666;
+            }
+            ul{
+                border:1px solid #e5e5e5;
+                border-top:0;
+                width:63px;
+                position:absolute;
+                z-index: 2;
+                background: white;
+                li{
+                    text-align: center;
+                    a{
+                        color:#666;
+                    }
+                }
+            }
+        }
+        .top-right4 {
+            border-right: 1px solid #e7e5e7;
+            display: block;
+            float: left;
+            height: 13px;
+            margin: 8px 10px;
+        }
+        .top-right5 {
+            background: url(../../dist/images/tubiao.png) no-repeat 0px -42px;
+            display: block;
+            float: left;
+            width: 83px;
+            border-right: 1px solid #e9e9e9;
+            a {
+                color: #666;
+                margin-left: 20px;
+                span {
+                    color: #ff6600;
+                }
+            }
+        }
+        .top-right6 {
+            width: 50px;
+            background: url(../../dist/images/tubiao.png) no-repeat 0 -67px;
+            display: block;
+            float: left;
+            padding-left: 20px;
+        }
+        .top-right7 {
+            width: 246px;
+            display: block;
+            float: left;
+            span {
+                background: url(../../dist/images/tubiao.png) no-repeat -100px 5px;
+                display: block;
+                float: left;
+                width: 16px;
+                height: 26px;
+                margin-right: 5px;
+            }
+            a {
+                color: #fe6809;
+            }
+        }
+    }
+}
+
+#mark{height:95px;}
+.mark{
+    height:95px;
+    cursor: pointer;
+    position: relative;
+    img{
+        position:absolute;
+    }
+}
+
+#logo{height:135px}
+.logo{height:135px}
+.logo-t{
+    height:100px;
+    .logo-t-l{
+        width:456px;
+        float:left;
+        a img{
+        padding:35px 0 0 10px;
+        }
+    }
+    .logo-t-m{
+        padding-top:30px;
+        width:395px;
+        float:left;
+    }
+    .logo-t-r{
+        width:330px;
+        float:left;
+        .form1{
+            @include WH(248px,30px);
+            margin-top:30px;
+            border:2px solid #90c221;
+            border-right:0;
+            float:left;
+            i{
+                background: url(../../dist/images/tubiao.png) no-repeat 5px -348px;
+                display: block;
+                float:left;
+                @include WH(30px,30px)
+            }
+            input{
+                border:0;
+                @include WH(216px,30px);
+                font-size:12px;
+                color:#a0a0a0;
+                margin-left:2px;
+                
+            }
+        }
+        .form2{
+            float:left;
+            input{
+                @include WH(78px,34px);
+                line-height: 34px;
+                font-size: 14px;
+                color:white;
+                text-align: center;
+                background: #90c221;
+                font-weight: bold;
+                margin-top:30px;
+                border:2px solid #90c221;
+                cursor:pointer;
+            } 
+        }
+        .form3{
+            @include WH(330px,25px);
+            span{
+                font-size: 12px;
+                color:#999;
+            }
+            a{
+                font-size: 12px;
+                color:#999;
+                
+            }
+        }
+    }
+}
+.logo-b{
+    height:35px;
+    background: #90c31f;
+    .con .con-l{
+        float:left;
+        @include WH(160px,34px);
+        font-size: 14px;
+        color:#fff;
+        padding-left: 50px;
+        position:relative;
+        background: #6d9d03;
+        line-height: 34px;
+        i{
+            background: url(../../dist/images/tubiao.png) no-repeat 0 -124px;
+            @include WH(14px,12px);
+            position:absolute;
+            left:147px;
+            top:12px;
+        }
+        .ul{
+            position:absolute;
+            left:0px;
+            z-index: 501px;
+            @include WH(210px,322px);
+            background: #fff;
+            z-index: 100;
+            .ul1{
+                @include WH(210px,46px);
+                em{
+                    background: url(../../dist/images/tubiao.png) no-repeat;
+                    margin:7px 5px 0 27px;
+                    @include WH(30px,30px);
+                    display: block;
+                    float:left;
+                }
+ 
+                .form3a{
+                    @include WH(105px,45px);
+                    display: block;
+                    float:left;
+                    font-size: 12px;
+                    color:#666;
+                    line-height: 46px;
+                }
+                b{
+                    background: url(../../dist/images/tubiao.png) no-repeat 0 -681px;
+                    display: block;
+                    @include WH(6px,46px);
+                    float:left;
+                }
+                .line{
+                    border-bottom: 1px dotted #cbcbcb;
+                    @include WH(191px,0);
+                    margin-left: 10px;
+                }
+                .box{
+                    @include WH(760px,319px);
+                    position: absolute;
+                    left:210px;
+                    top:-1px;
+                    border: 1px solid #94c51b;
+                    background: #fff;
+                    z-index: 600;
+                    .box-l{
+                        @include WH(505px,300px);
+                        float:left;
+                        .box-l1{
+                            width: 50px;
+                            padding: 5px 0;
+                            padding-left:30px;
+                            font-size: 12px;
+                            line-height: 24px;
+                            color: #666666;
+                            font-weight: bold;
+                            float: left;
+                            b{
+                                margin:0 5px;
+                                background: 0;
+                                text-align: right;
+                            }
+                        }
+                        .box-l2{
+                            width: 410px;
+                            float: left;
+                            line-height: 18px;
+                            padding: 5px 0;
+                            margin: 0 0 10px 10px;
+                            border-bottom: 1px dotted #ccc;
+                            span .box-l2a{
+                                color:#f60;
+                            }
+                            a{
+                                font-size: 12px;
+                                line-height: 24px;
+                                color: #666;
+                                padding: 0 4px 0 5px;
+                                border-left: 1px solid #ccc;
+                                display: inline;
+                            }
+                        }
+                    }
+                    .box-r{
+                        @include WH(224px,282px);
+                        float:left;
+                        background: 0;
+                        
+                        li{
+                           @include WH(210px,130px);
+                           margin:15px;
+                        }
+                    }
+                }
+            }
+            & li:nth-child(1) em{background-position: 0 -414px};
+            & li:nth-child(2) em{background-position: 0 -453px};
+            & li:nth-child(3) em{background-position: 0 -494px};
+            & li:nth-child(4) em{background-position: 0 -531px};
+            & li:nth-child(5) em{background-position: 0 -570px};
+            & li:nth-child(6) em{background-position: 0 -607px};
+            & li:nth-child(7) em{background-position: 0 -644px};
+        }
+    }
+    .con .con-r{
+        float:left;
+        @include WH(942px,34px);
+        li{
+            float:left;
+            a{
+                font-size:14px;
+                display: block;
+                height:34px;
+                color:#fff;
+                line-height: 34px;
+                padding:0 33px;
+                text-align: center;
+            }
+            
+        }
+    }
+}
+#site{
+    height:25px;
+    margin:45px auto 15px;
+    i{
+        display: block;
+        float:left;
+        width:20px;
+        height:15px;
+        background: url(../../dist/images/tubiao.png) no-repeat left -92px;
+        margin-top:5px;
+    }
+    .site1{
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        color: #666;
+        float: left;
+        padding: 0px 2px 0px 2px;
+    }
+    .site2{
+        float:left;
+        height: 25px;
+        line-height: 25px;
+        font-size: 12px;
+        color: #666;
+        float: left;
+        padding: 0px 2px 0px 2px;
+    }
+}
+
+
+#shangpin{
+    height:472px;
+    .shangpin-l{
+        @include WH(402px,472px);
+        float:left;
+        position: relative;
+        img{
+            border:1px solid #E9E9E9;
+        }
+        .shangpin-l1{
+            @include WH(402px,70px);
+            i{
+                @include WH(8px,15px);
+                display: block;
+                float:left;
+                background: url(../../dist/images/tubiao.png) no-repeat -180px -742px;
+                margin-top:30px;
+            }
+            div{
+                width:303px;
+                height:70px;
+                float:left;
+                margin: 0 10px;
+                img{
+                    border:2px solid #90C221;
+                }
+            }
+            b{
+                @include WH(8px,15px);
+                display: block;
+                float:left;
+                margin-top:30px;
+                background: url(../../dist/images/tubiao.png) no-repeat -189px -742px;
+            }
+        }
+        .shangpin-l2{
+            @include WH(400px,400px);
+            position:absolute;
+            left:410px;
+            top:0;
+            z-index: 5;
+            overflow: hidden;
+            border:1px solid #E9E9E9;
+            display: none;
+            img{
+                position: absolute;
+                top:0;
+                left:0;
+            }
+        }
+        .shangpin-l3{
+            @include WH(400px,400px);
+            
+            position: relative;
+            .shangpin-mark{
+                @include WH(250px,250px);
+                background: #999;
+                opacity: 0.3;
+                position: absolute;
+                top:0;
+                left:0;
+                z-index: 10;
+                display: none;
+            }
+        }
+    }
+    .shangpin-m{
+        @include WH(620px,472px);
+        margin:0 10px 0 30px;
+        float:left;
+        h3{
+            font-size: 16px;
+            line-height: 20px;
+            color: #333333;
+            width:390px;
+        }
+        span{
+            font-size: 14px;
+            line-height: 20px;
+            color: #ff6600;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .shangpin-m1{
+            border-top: 1px dotted #CCC;
+            padding-top: 10px;
+            @include WH(621px,220px);
+            position: relative;
+            p{
+                font-size: 12px;
+                color:#666;
+                line-height:24px;
+                margin:5px 0 0 5px;
+                span{
+                    color:#f60;
+                    font-size: 16px;
+                    display: inline;
+                }
+                b{
+                    font-size: 12px;
+                    color:#000;
+                    
+                }
+            }
+            div{
+                @include WH(621px,30px);
+                margin-top: 18px;
+                a{
+                    display: block;
+                    float:left;
+                }
+                p{
+                    float:left;
+                    margin:0;
+                    i{
+                        margin-left:20px;
+                        display: block;
+                        float:left;
+                        @include WH(15px,12px);
+                        margin-top:5px;
+                        background: url(../../dist/images/tubiao.png) no-repeat -4px -958px;
+                    }
+                }
+                & a:nth-of-type(1){
+                    @include WH(12px,12px);
+                    margin-top:5px;
+                    margin-right:3px;
+                    background: url(../../dist/images/tubiao.png) no-repeat -89px -927px;
+                }
+                & a:nth-of-type(2){
+                    @include WH(20px,20px);
+                    margin:0 3px;
+                    background: url(../../dist/images/tubiao.png) no-repeat -91px -379px;
+                }
+                & a:nth-of-type(3){
+                    @include WH(20px,20px);
+                    margin:0 3px;
+                    background: url(../../dist/images/tubiao.png) no-repeat -112px -379px;
+                }
+                & a:nth-of-type(4){
+                    @include WH(20px,20px);
+                    margin:0 3px;
+                    background: url(../../dist/images/tubiao.png) no-repeat -133px -379px;
+                }
+               
+            }
+            nav{
+                font-size: 12px;
+                color:#333;
+                line-height: 15px;
+                position:absolute;
+                @include WH(150px,30px)
+                right:0;
+                top:10px;
+                i{
+                    display: block;
+                    float:right;
+                    @include WH(16px,16px);
+                    background: url(../../dist/images/tubiao.png) no-repeat -243px -940px;
+                }
+            }
+        }
+        
+    }
+    .shangpin-r{
+        @include WH(115px,472px);
+        float:left;
+        p{
+            font-size: 12px;
+            color:#666;
+            width:115px;
+            text-align: center;
+        }
+    }
+}
+
+
+#shangpin1{
+    height:517px;   
+    h2{
+        font-size: 16px;
+        color:#000;
+        line-height: 40px;
+    }
+    .shangpin1a{
+        @include WH(1188px,400px);
+        .shangpin1a-a{
+            @include WH(584px,190px);
+            padding:10px 0 0 8px;
+            border:1px solid #ccc;
+            float:left;
+            img{
+                float:left;
+                border:1px solid #ccc;
+            }
+            .shangpin1a-a1{
+                float:left;
+                margin-left:9px;
+                h5{
+                  font-size: 12px;
+                  color:#333;  
+                  margin-bottom: 29px;
+                  line-height: 12px;
+                }
+                p{
+                    font-size: 12px;
+                    color:#999;
+                    margin-bottom: 18px;
+                }
+                .pin{
+                    p{
+                        float:left;
+                    }
+                    .pin1{
+                        position:relative;
+                        float:left;
+                        @include WH(95px,22px);
+                        border:1px solid #ccc;
+                        margin-right:15px;
+                        input{
+                            @include WH(62px,22px);
+                            padding:0 5px;
+                            float:left;
+                            font-size: 12px;
+                        }
+                        i{
+                            display: block;
+                            @include WH(22px,22px);
+                            float:left;
+                            background: url(../../dist/images/tubiao.png) no-repeat -124px -911px;
+                        }
+                        .pin2{
+                            @include WH(336px,150px);
+                            border:1px solid #ccc;
+                            position: absolute;
+                            display: none;
+                            background: #fff;
+                            top:22px;
+                            left:0;
+                            li{
+                                font-size: 12px;
+                                color:#999;
+                                z-index: 5;
+                                @include WH(40px,30px);
+                                text-align: center;
+                                line-height: 30px;
+                                border:1px solid #ccc;
+                                cursor: pointer;
+                                float:left;
+                                margin:3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .shangpin1b{
+        width:100%;
+        height:35px;
+        margin:30px 0;
+        .shangpin1b-a{
+            @include WH(150px,32px);
+            float: left;
+            line-height: 32px;
+            text-align: center;
+            background: #f60;
+            margin-left:440px;
+            color:#fff;
+            font-size: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .shangpin1b-b{
+            border:1px solid #f60;
+            @include WH(150px,32px);
+            float: left;
+            line-height: 32px;
+            margin-left: 10px;
+            color:#f60;
+            font-size: 16px;
+            cursor: pointer;
+            i{
+                @include WH(17px,17px);
+                display: block;
+                float:left;
+                background: url(../../dist/images/tubiao.png) no-repeat 0 -47px;
+                margin:8px 8px 0 20px;
+            }
+            
+        }
+    }
+}
+
+
+
+#content{min-height: 2400px;margin-bottom: 30px;}
+.content-left{
+    width:210px;
+    float:left;
+    .content-l1{
+        width:210px;
+        border-top:3px solid #6D9D03;
+        background: #f5f5f5;
+        min-height: 248px;
+        .content-l1-a{
+            width:210px;    
+            min-height:30px;
+            line-height: 30px;
+            border-bottom: 1px solid #d9d9d9;
+            i{
+                display: block;
+                @include WH(30px,30px);
+                float:left;
+                cursor: pointer;
+                background: url(../../dist/images/tubiao.png) no-repeat left -786px;
+            }
+            a{
+                display: block;
+                width:180px;
+                float:left;
+                color:#90C221;
+                font-size: 14px;
+                line-height: 30px;
+            }
+        }
+    }
+    .content-l2{
+        min-height: 30px;
+        border-top:3px solid #90C221;
+        margin-top:20px;
+        border:1px solid #e9e9e9;
+        h3{
+            height:29px;
+            border-bottom: 1px solid #e9e9e9;
+            font-size: 16px;
+            color:#333333;
+            line-height: 29px;
+            padding-left:10px;
+        }
+        div{
+            min-height:100px;
+            padding:0 10px;
+            margin:0 auto;
+            img{
+                @include WH(190px,190px);
+            }
+            span{
+                font-size: 16px;
+                color:#f60;
+                line-height: 26px;
+            }
+            p{
+                color:#666;
+                font-size: 12px;
+                line-height: 18px;
+            }
+            h4{
+                height:32px;
+                color:#666;
+                line-height: 32px;
+                border-top:1px solid #e9e9e9;
+                font-size: 12px;
+                span{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.content-right{
+    width:960px;
+    float:right;
+    .a1{
+        width:100%;
+        height:35px;
+        background: #f7f7f7;
+        h2{
+            width:56px;
+            height:32px;
+            padding:0 25px;
+            border:1px solid #dddddd;
+            border-top:2px solid #f60;
+            text-align: center;
+            line-height: 32px;
+            font-size: 14px;
+            color:#f60;
+            background: #fff;
+        }
+    }
+    .a2{
+        @include WH(862px,48px);
+        padding:12px;
+        margin:10px 20px;
+        border:1px solid #ddd;
+        p{
+            font-size: 12px;
+            color:#666;
+            i{
+                color:#000;
+                font-weight: 100;
+            }
+            b{
+                color:#90C221;
+            }
+        }
+    }
+    img{
+        width:986px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom{
+    height:400px;
+    background: #F0F0F0;
+    .bottom{
+        height:390px;
+        position:relative;
+        padding-top:10px;
+        img{
+            margin:0 auto;
+        }
+        .bottom1{
+            padding: 20px 0px 0 70px;
+            border-top: 1px #fff solid;
+            margin:0 auto;
+            @include WH(970px,110px);
+            border-bottom: 1px solid #E0E0E0;
+            .bottom1-1{
+                float: left;
+                width: 150px;
+                color: #666;
+                p{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                a{
+                    font-size: 12px;
+                    display: block;
+                    color:#999;
+                    text-align: center;
+                }
+            }
+        }
+        .bottom2{
+            border-top: 1px #fff solid;
+            text-align: center;
+            padding: 14px 0;
+            p{
+                text-align: center;
+                font-size: 12px;
+                color:#999;
+                
+            }
+            h3{
+                text-align: center;
+                font-size: 12px;
+                color:#999;
+                i{
+                    background: url("../../dist/images/ba.jpg");
+                    display: inline-block;
+                    @include WH(20px,20px);
+                }
+            }
+            div{
+                margin:2px 0 15px 0;
+                a{
+                    font-size: 12px;
+                    color:#999;
+                    padding:0 5px 0 3px;
+                    border-right:2px solid #999;
+                }
+            }
+            img{
+                margin-top:14px;
+            }
+        }
+    }
+}
+
+
+#right{
+    @include WH(55px,300px);
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    right: -25px;
+    a{
+        @include WH(55px,61px);
+        display: block;
+        background: url(../../dist/images/tubiao.png) no-repeat;
+    }
+    & a:nth-child(1){
+        background-position: -309px -597px;
+        img{
+            position:fixed;
+            right:30px;
+            bottom:260px;
+            display: none;
+        }   
+    }
+    & a:nth-child(2){background-position: -309px -475px;}
+    & a:nth-child(3){background-position: -309px -536px;}
+    & a:nth-child(4){background-position: -309px -658px;}
+    & a:nth-child(5){background-position: -309px -719px;}
+}

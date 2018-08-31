@@ -33,9 +33,12 @@ input {
   overflow: hidden;
   visibility: hidden; }
 
-.top, .mark, .logo, .con, .bottom, .banner, #rmss, #miaosha, .yilou, .yilou1, #silou, #wulou, #wlmd, #pingjia {
+.top, .mark, .logo, .con, .bottom, .banner, #rmss, #miaosha, .yilou, .yilou1, #silou, #wulou, #wlmd, #pingjia, #site, #content, #shangpin, #shangpin1 {
   width: 1190px;
   margin: 0 auto; }
+
+input {
+  border: 0; }
 
 #top {
   height: 26px;
@@ -1208,7 +1211,8 @@ input {
       padding: 15px 0 0 8px;
       border-top: 0;
       height: 1000px;
-      position: relative; }
+      position: absolute;
+      top: 30px; }
       #pingjia .pingjia2 ul li {
         width: 310px;
         height: 100px;
